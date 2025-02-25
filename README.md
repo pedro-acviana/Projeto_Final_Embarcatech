@@ -59,5 +59,6 @@ Este projeto é um afinador de guitarra baseado no Raspberry Pi Pico. Ele utiliz
 
 1. Instale o [Pico SDK](https://github.com/raspberrypi/pico-sdk).
 2. Clone este repositório
-3. Entre na pasta build
-4. Adicione o arquivo '.uf2' na placa em modo bootsel.
+3. Vá para a parte ```Projeto_Raspinator```
+4. Digite no terminal ```rm -rf build/ && mkdir build/ && cd buid/ && cmake .. && make```
+5. Adicione o arquivo ```guitar_tuner.uf2``` na placa em modo bootsel.
